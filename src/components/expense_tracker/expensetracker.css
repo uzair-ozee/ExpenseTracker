@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.heading{
+    font-size: 2.5rem;
+    font-family: serif;
+    font-weight: 600;
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb();
+    gap: 0.4em;
+    color: #ccc;
+}
+
+.total_budget{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.inp_btn{
+    display: flex;
+    justify-content: center;
+    gap: 0.3em;
+}
+
+.cause input,
+.budget_inp input{
+    padding: 0.5em;
+    border: none;
+    border: 2px solid #ccc;
+    border-radius: 0.4em;
+    outline: none;
+}
+
+::placeholder{
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.exp__btn button,
+.budget__btn button{
+    padding: 0.5em;
+    cursor: pointer;
+    font-family: serif;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 0.4em;
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 13px;
+    width: 9em;
+}
+
+.total_amount,
+.spent,
+.remaining{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+.reason{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.cause{
+    display: flex;
+    gap: 0.4em;
+}
+
+.exp__btn{
+    display: flex;
+    justify-content: end;
+}
+
+.expense__div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    color: #ccc;
+}
+
+.exp_heading{
+    font-family: serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    text-decoration: underline;
+}
+
+.RandC{
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+
+.sb{
+    display: flex;
+    justify-content: space-between;
+}
